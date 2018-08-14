@@ -1,0 +1,17 @@
+{
+  "name": "sassy-alexa",
+  "version": "1.0.0",
+  "description": "An Alexa with some sass",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "alexa"
+  ],
+  "author": "Mike Jancar",
+  "license": "ISC",
+  "dependencies": {
+    "ask-sdk": "^2.0.7"
+  }
+}
