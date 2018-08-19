@@ -1,9 +1,6 @@
 'use strict';
 
-const Alexa = require('ask-sdk-core');
-// use 'ask-sdk' if standard SDK module is installed
-
-// Code for the handlers here
+const Alexa = require('ask-sdk');
 
 let skill;
 
