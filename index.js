@@ -1,9 +1,6 @@
 'use strict';
 
-const Alexa = require('ask-sdk-core');
-// use 'ask-sdk' if standard SDK module is installed
-
-// Code for the handlers here
+const Alexa = require('ask-sdk');
 
 let skill;
 
@@ -105,8 +102,8 @@ const ErrorHandler = {
       console.log(`Error handled: ${error.message}`);
 
       return handlerInput.responseBuilder
-        .speak('Sorry, I can\'t understand the command. Please say again.')
-        .reprompt('Sorry, I can\'t understand the command. Please say again.')
+        .speak('You know I don\'t speak Spanish! In English, please!')
+        .reprompt('I give up!')
         .getResponse();
     },
 };
