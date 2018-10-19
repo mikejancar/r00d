@@ -1,7 +1,7 @@
 {
-  "name": "sassy-alexa",
+  "name": "r00d",
   "version": "1.0.0",
-  "description": "An Alexa with some sass",
+  "description": "The first Dev Playground Alexa AI",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
